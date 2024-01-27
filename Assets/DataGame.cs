@@ -4,8 +4,9 @@ using UnityEngine;
 
 public class DataGame 
 {
-    public static int w = 10; // this is the width
-    public static int h = 13; // this is the height
+
+    public static int w = 92; // this is the width
+    public static int h = 92; // this is the height
     public static Element[,] elements = new Element[w, h];
     public static void uncoverMines()
     {
